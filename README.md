@@ -17,11 +17,8 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 ```text
 .
 ├── palantir/                     # Palantir Ontology 交付/架构参考 + 官方入门教程
-│   ├── others/                              # 架构文档整理（三平台架构、Ontology 系统、权威资料合并版）
-│   │   ├── 01_platforms_apollo_delivery.md     # 标准三平台架构 AIP + Foundry + Apollo
-│   │   ├── 02_ontology_system.md               # Ontology System（交付核心）
-│   │   └── Palantir_Ontology_权威资料_合并.md   # Ontology 架构参考（官方文档合并版）
-│   └── Palantir官方教程/                   # Palantir Learn 官方教程 PDF
+│   ├── Palantir官方教程/                   # Palantir Learn 官方教程 PDF（入门首选）
+│   └── others/                              # 官方文档整理版（含中文注释）
 ├── paper/                        # LLM 生成本体论相关论文（英文 PDF）
 ├── context/                      # 本体论基础背景资料（概念、RDFS/OWL、视频讲解）
 ├── ddd/                          # DDD 架构方法论（战略/战术设计、事件风暴、SOLID）
@@ -35,10 +32,8 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 
 | 路径 | 主题 |
 | --- | --- |
-| `others/01_platforms_apollo_delivery.md` | Palantir 标准三平台架构（AIP + Foundry + Apollo），以及作为企业操作系统的定位。 |
-| `others/02_ontology_system.md` | Ontology 系统的四重集成：**数据**（data）、**逻辑**（logic）、**动作**（action）、**安全**（security）。 |
-| `others/Palantir_Ontology_权威资料_合并.md` | 官方文档 Overview 合并整理版：对象、属性、链接、动作、函数等核心概念。 |
 | `Palantir官方教程/` | Palantir Learn 官方教程：Getting Started、Foundry & AIP 介绍、Application Development（构建首个应用 / 创建首个 Ontology）、Data Engineering（构建首个 Pipeline / E2E 工作流）。 |
+| `others/` | 官方文档整理版（含中文注释）：标准三平台架构（AIP + Foundry + Apollo）、Ontology System 交付核心、Ontology 核心概念（对象/属性/链接/动作/函数）。 |
 
 ### LLM 与本体生成
 
