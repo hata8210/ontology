@@ -18,12 +18,14 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 .
 ├── palantir/                     # Palantir Ontology 交付/架构参考 + 官方入门教程
 │   ├── Palantir官方教程/                   # Palantir Learn 官方教程 PDF（入门首选）
-│   └── others/                              # 官方文档整理版（含中文注释）
+│   ├── others/                              # 官方文档整理版（含中文注释）
+│   └── 分享讲解/                           # Palantir 主题分享/讲解（视频转写 + 讲解明细）
 ├── paper/                        # LLM 生成本体论相关论文（英文 PDF）
 ├── context/                      # 本体论基础背景资料（概念、RDFS/OWL、视频讲解）
 ├── ddd/                          # DDD 架构方法论（战略/战术设计、事件风暴、SOLID）
 ├── others/                       # 行业交流纪要 / 竞品产品调研
-└── projects/                     # 相关项目（本体 Skill、开源知识图谱项目）
+├── semantica/                    # 相关项目：开源图原生知识图谱基础设施
+└── projects/                     # 相关项目（本体 Skill）
 ```
 
 ## 内容概览
@@ -34,6 +36,7 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 | --- | --- |
 | `Palantir官方教程/` | Palantir Learn 官方教程：Getting Started、Foundry & AIP 介绍、Application Development（构建首个应用 / 创建首个 Ontology）、Data Engineering（构建首个 Pipeline / E2E 工作流）。 |
 | `others/` | 官方文档整理版（含中文注释）：标准三平台架构（AIP + Foundry + Apollo）、Ontology System 交付核心、Ontology 核心概念（对象/属性/链接/动作/函数）。 |
+| `分享讲解/` | Palantir 主题分享与讲解（转写文本 + 讲解明细）：LLM 驱动 Ontology 构建、Palantir Agent 与 Ontology 交互、企业 Agentic Workflow 落地、文件如何变成 Ontology、本体设计原则与实践。 |
 
 ### LLM 与本体生成
 
@@ -50,6 +53,7 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 | --- | --- |
 | `ontology是什么东西 - Google Search.pdf` | 本体论基础概念科普（搜索结果整理）。 |
 | `rdfs和owl分别是什么有什么关联 - Google Search.pdf` | RDFS 与 OWL 的差异与关联。 |
+| `owl与ontology相关概念SHACL、SKOS、Compliance Rules、W3C、PROV-O、SPARQL、HermiT.md` | 语义网与 AI 治理技术栈大白话讲解，及其与 OWL/Ontology 的关系。 |
 | `视频：为什么智能体系统需要本体论 20260907.txt` | Frank Coyle（UC Berkeley）演讲全文转写：智能体与本体、知识表示。 |
 | `视频：本体论Ontology的新瓶与旧酒 20260903.txt` | 腾讯云架构师同盟播客「架构达尔文」对谈转写：本体论在 AI/架构师语境下的演进。 |
 
@@ -68,14 +72,14 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 | --- | --- |
 | `其它产品一 20260908.txt` | 会议纪要：本体论 + 大模型 + 智能体落地实践（逆向工程构建本体、子域本体+桥接、本体作为智能体“蓝图”）。 |
 
-## 相关项目（projects）
+## 相关项目
 
 > 本目录为相关项目代码，主要维护指向各项目文档的入口，不展开代码细节。
 
 | 项目 | 说明 | 入口 |
 | --- | --- | --- |
 | `ontology-1/` | 面向智能体记忆的**类型化知识图谱** Skill：实体（Person / Project / Task / Event / Document 等）+ 类型约束 + 关系链接，支持增删改查、约束校验与跨 Skill 状态共享。 | 详见 `projects/ontology-1/SKILL.md` |
-| `semantica/` | 开源**图原生基础设施**（semantica-agi/semantica）：面向高合规领域（金融、医疗、政务等）的上下文与可问责 AI 系统，提供 Context Graph / 知识图谱构建、本体治理（OWL、SHACL、SKOS）、确定性推理与全链路溯源。 | 详见 `projects/semantica/README.md` |
+| `semantica/` | 开源**图原生基础设施**（semantica-agi/semantica）：面向高合规领域（金融、医疗、政务等）的上下文与可问责 AI 系统，提供 Context Graph / 知识图谱构建、本体治理（OWL、SHACL、SKOS）、确定性推理与全链路溯源。 | 详见 `semantica/semantica-main/README.md` |
 
 ## 说明
 
