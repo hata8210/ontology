@@ -25,6 +25,9 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 ├── ddd/                          # DDD 架构方法论（战略/战术设计、事件风暴、SOLID）
 ├── others/                       # 行业交流纪要 / 竞品产品调研
 ├── semantica/                    # 相关项目：开源图原生知识图谱基础设施
+│   ├── semantica-main/                     # Semantica 源码仓库
+│   ├── docs/                             # 官方文档（Markdown）
+│   └── website/                          # 官网资料整理（PDF）
 └── projects/                     # 相关项目（本体 Skill）
 ```
 
@@ -79,7 +82,9 @@ Palantir Foundry **Ontology**（本体）体系与 LLM 生成本体研究的资�
 | 项目 | 说明 | 入口 |
 | --- | --- | --- |
 | `ontology-1/` | 面向智能体记忆的**类型化知识图谱** Skill：实体（Person / Project / Task / Event / Document 等）+ 类型约束 + 关系链接，支持增删改查、约束校验与跨 Skill 状态共享。 | 详见 `projects/ontology-1/SKILL.md` |
-| `semantica/` | 开源**图原生基础设施**（semantica-agi/semantica）：面向高合规领域（金融、医疗、政务等）的上下文与可问责 AI 系统，提供 Context Graph / 知识图谱构建、本体治理（OWL、SHACL、SKOS）、确定性推理与全链路溯源。 | 详见 `semantica/semantica-main/README.md` |
+| `semantica/semantica-main/` | 开源**图原生基础设施**（semantica-agi/semantica）：面向高合规领域（金融、医疗、政务等）的上下文与可问责 AI 系统，提供 Context Graph / 知识图谱构建、本体治理（OWL、SHACL、SKOS）、确定性推理与全链路溯源。 | 详见 `semantica/semantica-main/README.md` |
+| `semantica/docs/` | Semantica 官方文档（markdown）：架构、模块、安装、参考手册、指南与集成说明。 | 详见 `semantica/docs/` |
+| `semantica/website/` | Semantica 官网资料整理（PDF）：Architecture、Core Concepts（Glossary / Modules / Choose the Right Module）、Overview（Reasoning & Rules / SHACL Validation / Decision Intelligence / Ontology Management）。 | 详见 `semantica/website/` |
 
 ## 说明
 
